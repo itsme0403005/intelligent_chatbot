@@ -1,0 +1,329 @@
+{
+"intents":[
+
+{
+"tag":"greeting",
+"patterns":[
+"Hi",
+"Hello",
+"Hey",
+"Hey there",
+"Good morning",
+"Good evening",
+"Hi there",
+"Hello there",
+"Is anyone there",
+"Hey chatbot",
+"Hi assistant",
+"Greetings",
+"Hey buddy",
+"Good afternoon",
+"Hello bot",
+"hii",
+"helloo",
+"hey bot"
+],
+"responses":[
+"Hello! How can I assist you today?",
+"Hi there! What can I help you with?",
+"Hey! How may I help you today?"
+]
+},
+
+{
+"tag":"goodbye",
+"patterns":[
+"Bye",
+"Goodbye",
+"See you later",
+"Talk to you later",
+"Catch you later",
+"I am leaving",
+"Bye bye",
+"See you soon",
+"Thanks bye",
+"Have a nice day",
+"Ok bye",
+"See ya"
+],
+"responses":[
+"Goodbye! Have a great day!",
+"See you later!",
+"Thanks for visiting. Come back anytime."
+]
+},
+
+{
+"tag":"thanks",
+"patterns":[
+"Thanks",
+"Thank you",
+"Thanks a lot",
+"Thank you so much",
+"Appreciate it",
+"Great thanks",
+"Thanks for helping",
+"Thank you for support",
+"Thanks bot"
+],
+"responses":[
+"You're welcome!",
+"Happy to help!",
+"Anytime! Let me know if you need anything else."
+]
+},
+
+{
+"tag":"order_status",
+"patterns":[
+"Where is my order",
+"Track my order",
+"Order status",
+"Has my order shipped",
+"When will my order arrive",
+"Track my package",
+"Delivery status",
+"Where is my package",
+"Track shipment",
+"Check order status",
+"I want to track my order",
+"Shipment tracking",
+"Order delivery status",
+"Track delivery",
+"Where is my shipment",
+"order statuus",
+"oder status",
+"ordr status",
+"track order",
+"check my order",
+"track my shipment"
+],
+"responses":[
+"Please provide your order ID so I can check the status.",
+"Kindly share your order number and I will check it for you.",
+"Can you give me your order ID so I can track it?"
+]
+},
+
+{
+"tag":"cancel_order",
+"patterns":[
+"Cancel my order",
+"I want to cancel my order",
+"Stop my order",
+"Cancel my purchase",
+"How to cancel my order",
+"I changed my mind cancel order",
+"Cancel order request",
+"Please cancel my order",
+"Order cancellation",
+"I want to stop my order",
+"Cancel this order",
+"order cancel",
+"cancle order",
+"cncle order"
+],
+"responses":[
+"Please provide your order ID to cancel your order.",
+"I can help cancel your order. Please share the order number."
+]
+},
+
+{
+"tag":"refund_request",
+"patterns":[
+"I want a refund",
+"Refund my payment",
+"Return my money",
+"How can I get refund",
+"Request refund",
+"I want my money back",
+"Refund for my order",
+"Return product and refund",
+"How do I request refund",
+"Refund request for product",
+"I need refund for my order",
+"Product refund request"
+],
+"responses":[
+"Please share your order ID so I can process your refund.",
+"Our team will assist you with the refund once we verify your order ID."
+]
+},
+
+{
+"tag":"product_availability",
+"patterns":[
+"Is this product available",
+"Do you have this item",
+"Is the product in stock",
+"Is this available",
+"Check product availability",
+"Can I buy this product",
+"Is this item still available",
+"Do you sell this product",
+"Is it available in stock",
+"Availability of product",
+"product available",
+"check stock"
+],
+"responses":[
+"Please share the product name so I can check its availability.",
+"Let me know the product name and I will check if it's in stock."
+]
+},
+
+{
+"tag":"product_price",
+"patterns":[
+"What is the price",
+"How much does this cost",
+"Price of product",
+"Product price",
+"How much is this item",
+"Tell me the price",
+"Cost of product",
+"What is the cost",
+"Price details",
+"How much is the product"
+],
+"responses":[
+"Please tell me the product name so I can check the price.",
+"I can help with that. Which product are you asking about?"
+]
+},
+
+{
+"tag":"discounts",
+"patterns":[
+"Any discounts available",
+"Current offers",
+"Promo code",
+"Any deals",
+"Discount on products",
+"Do you have sale",
+"Special offers today",
+"Any coupons available",
+"Discount codes",
+"Latest offers"
+],
+"responses":[
+"We currently have seasonal discounts available.",
+"You can check the offers section for current deals and promo codes."
+]
+},
+
+{
+"tag":"shipping_information",
+"patterns":[
+"Shipping information",
+"How long is delivery",
+"When will my order arrive",
+"Delivery time",
+"Shipping time",
+"How many days for delivery",
+"Estimated delivery time",
+"Shipping duration",
+"When will delivery happen"
+],
+"responses":[
+"Delivery usually takes 3-5 business days.",
+"Shipping times depend on your location but usually take 3–5 days."
+]
+},
+
+{
+"tag":"payment_issue",
+"patterns":[
+"Payment failed",
+"Transaction failed",
+"Payment error",
+"My payment did not go through",
+"Unable to pay",
+"Payment declined",
+"I got charged twice",
+"Double payment",
+"My card payment failed",
+"Payment not working"
+],
+"responses":[
+"Please share your transaction ID so we can investigate the payment issue.",
+"Sorry about that! Please provide your transaction details."
+]
+},
+
+{
+"tag":"payment_methods",
+"patterns":[
+"What payment methods do you accept",
+"Can I pay with card",
+"Do you accept UPI",
+"Payment options",
+"How can I pay",
+"Available payment methods",
+"Can I pay with debit card",
+"Do you support online payment",
+"Is cash on delivery available"
+],
+"responses":[
+"We accept credit cards, debit cards, UPI and net banking.",
+"You can pay using card, UPI or net banking."
+]
+},
+
+{
+"tag":"account_help",
+"patterns":[
+"I cannot login",
+"Login problem",
+"Forgot password",
+"Account access issue",
+"Reset password",
+"I cannot access my account",
+"Unable to login",
+"Account login error",
+"Password reset help"
+],
+"responses":[
+"You can reset your password using the forgot password option.",
+"Please try resetting your password from the login page."
+]
+},
+
+{
+"tag":"contact_support",
+"patterns":[
+"Talk to support",
+"I want customer service",
+"Connect to human agent",
+"I need support",
+"Contact customer care",
+"Speak to support team",
+"I need help from support",
+"Customer service contact"
+],
+"responses":[
+"I will connect you with our support team.",
+"Please wait while I connect you to a support representative."
+]
+},
+
+{
+"tag":"fallback",
+"patterns":[
+"I don't understand",
+"What are you saying",
+"Random question",
+"Something else",
+"Can you repeat",
+"I did not get that",
+"Say that again"
+],
+"responses":[
+"Sorry, I didn't understand that. Could you please rephrase?",
+"I'm not sure I understood that. Can you try asking differently?"
+]
+}
+
+]
+}
